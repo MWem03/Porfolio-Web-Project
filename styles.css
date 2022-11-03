@@ -1,0 +1,29 @@
+/*A lot of my text will be uniform so that will all be but in the body container*/
+body {
+    color: white;
+    background: gray;
+    margin: 20px 200px;
+    padding: 10px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* wanted some of my text to still align to the left, so manually aligned certain elements to the center*/
+div, footer, h1, h2 {
+    text-align: center;
+}
+/* Image got a little distorted when the margin was altered so that was manually fixed, as well as centering*/
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%
+}
+
+/*wanted my links to grab more attention so made them larger and added psuedo-classes*/
+a {
+    font-size: large;
+}
+a:link {color: purple}
+a:visited {color: blue;}
+a:hover {color: white;}
+a:active {color: red;}
